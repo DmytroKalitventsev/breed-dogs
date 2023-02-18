@@ -19,10 +19,8 @@ let breeds = [
 ];
 
 for (let i = 0; i < breeds.length; i++) {
-	for (let j = 1; j < breeds[i].length; j++) {
-		console.log(breeds[i][0]);
-		for (let k = 0; k < breeds[i][j].length; k++) {
-			console.log(breeds[i][j][k]);
-		}
+	console.log(breeds[i][0]);
+	for (let j = 0; j < breeds[i][1].length; j++) {
+		console.log(breeds[i][1][j]);
 	}
 }
